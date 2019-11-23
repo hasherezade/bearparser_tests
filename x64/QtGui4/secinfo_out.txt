@@ -1,0 +1,94 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ Sections count = 6
+Available indexes: 0-5
+Chose the section by index: Section .text
+[raw]
+ ------------[In Hdr]------[Mapped]
+ Offset:         400 	       400
+ Size:        604600 	    604600
+ Scope:  [       400 -     604A00], size = 604600
+ 
+[RVA]
+ ------------[In Hdr]------[Mapped]
+ Offset:        1000 	      1000
+ Size:        604521 	    605000
+ Scope:  [      1000 -     606000], size = 605000
+ 
+$ Sections count = 6
+Available indexes: 0-5
+Chose the section by index: Section .rdata
+[raw]
+ ------------[In Hdr]------[Mapped]
+ Offset:      604A00 	    604A00
+ Size:        31F200 	    31F200
+ Scope:  [    604A00 -     923C00], size = 31F200
+ 
+[RVA]
+ ------------[In Hdr]------[Mapped]
+ Offset:      606000 	    606000
+ Size:        31F1D2 	    320000
+ Scope:  [    606000 -     926000], size = 320000
+ 
+$ Sections count = 6
+Available indexes: 0-5
+Chose the section by index: Section .data
+[raw]
+ ------------[In Hdr]------[Mapped]
+ Offset:      923C00 	    923C00
+ Size:          D600 	      D600
+ Scope:  [    923C00 -     931200], size = D600
+ 
+[RVA]
+ ------------[In Hdr]------[Mapped]
+ Offset:      926000 	    926000
+ Size:         11708 	     12000
+ Scope:  [    926000 -     938000], size = 12000
+ 
+$ Sections count = 6
+Available indexes: 0-5
+Chose the section by index: Section .pdata
+[raw]
+ ------------[In Hdr]------[Mapped]
+ Offset:      931200 	    931200
+ Size:         4AA00 	     4AA00
+ Scope:  [    931200 -     97BC00], size = 4AA00
+ 
+[RVA]
+ ------------[In Hdr]------[Mapped]
+ Offset:      938000 	    938000
+ Size:         4A9A0 	     4B000
+ Scope:  [    938000 -     983000], size = 4B000
+ 
+$ Sections count = 6
+Available indexes: 0-5
+Chose the section by index: Section .rsrc
+[raw]
+ ------------[In Hdr]------[Mapped]
+ Offset:      97BC00 	    97BC00
+ Size:           600 	       600
+ Scope:  [    97BC00 -     97C200], size = 600
+ 
+[RVA]
+ ------------[In Hdr]------[Mapped]
+ Offset:      983000 	    983000
+ Size:           530 	      1000
+ Scope:  [    983000 -     984000], size = 1000
+ 
+$ Sections count = 6
+Available indexes: 0-5
+Chose the section by index: Section .reloc
+[raw]
+ ------------[In Hdr]------[Mapped]
+ Offset:      97C200 	    97C200
+ Size:         11600 	     11600
+ Scope:  [    97C200 -     98D800], size = 11600
+ 
+[RVA]
+ ------------[In Hdr]------[Mapped]
+ Offset:      984000 	    984000
+ Size:         11504 	     12000
+ Scope:  [    984000 -     996000], size = 12000
+ 
+$ Bye!

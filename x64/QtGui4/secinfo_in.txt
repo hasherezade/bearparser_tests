@@ -1,0 +1,8 @@
+secinfo 0
+secinfo 1
+secinfo 2
+secinfo 3
+secinfo 4
+secinfo 5
+q
+
