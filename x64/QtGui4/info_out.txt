@@ -1,0 +1,23 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ Bit mode: 	64
+Entry point: 	[00597b84 v]
+Raw size: 	[0098d800]
+Raw align. 	[00000200]
+Virtual size: 	[00996000]
+Virtual align. 	[00001000]
+Contains:
+[0] DOS Hdr
+[1] Rich Hdr
+[2] File Hdr
+[3] Optional Hdr
+[4] Data Directory
+[5] Section Hdrs
+[6] Export: QtGui4.dll
+[7] Imports
+[8] Resources
+[9] Exceptions Dir.
+[11] Relocation Dir.
+
+$ Bye!

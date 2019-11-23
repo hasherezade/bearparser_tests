@@ -1,0 +1,39 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ [0] DOS Hdr
+[1] Rich Hdr
+[2] File Hdr
+[3] Optional Hdr
+[4] Data Directory
+[5] Section Hdrs
+[6] Export: QtGui4.dll
+[7] Imports
+[8] Resources
+[9] Exceptions Dir.
+[11] Relocation Dir.
+wrapperNum: 
+------
+[DOS Hdr] size: 0040 fieldsCount: 19
+
+[00000000] Magic number	[5A4D _]
+[00000002] Bytes on last page of file	[0090 _]
+[00000004] Pages in file	[0003 _]
+[00000006] Relocations	[0000 _]
+[00000008] Size of header in paragraphs	[0004 _]
+[0000000a] Minimum extra paragraphs needed	[0000 _]
+[0000000c] Maximum extra paragraphs needed	[FFFF _]
+[0000000e] Initial (relative) SS value	[0000 _]
+[00000010] Initial SP value	[00B8 _]
+[00000012] Checksum	[0000 _]
+[00000014] Initial IP value	[0000 _]
+[00000016] Initial (relative) CS value	[0000 _]
+[00000018] File address of relocation table	[0040 r]
+[0000001a] Overlay number	[0000 _]
+[0000001c] Reserved words[4]	[0000000000000000 _]
+[00000024] OEM identifier (for OEM information)	[0000 _]
+[00000026] OEM information; OEM identifier specific	[0000 _]
+[00000028] Reserved words[10]	[... _]
+[0000003c] File address of new exe header	[00000108 r]
+------
+$ Bye!
