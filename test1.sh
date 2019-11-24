@@ -9,7 +9,7 @@ echo "Starting test: " "$BINARY_PATH" ":" "$TEST_NAME"
 
 if ! test -f "$FILE"; then
 	#try to use EXE extension:
-	$FILE="$BINARY_PATH".exe
+	FILE="$BINARY_PATH".exe
 	if ! test -f "$FILE"; then
 		echo "$FILE NOT found!"
 		exit 2
