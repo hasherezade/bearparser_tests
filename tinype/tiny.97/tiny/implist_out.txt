@@ -1,0 +1,6 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ Libraries Count: 0
+Functions Count: 0
+$ Bye!
