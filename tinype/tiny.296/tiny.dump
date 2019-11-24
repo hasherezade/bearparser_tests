@@ -1,0 +1,89 @@
+Microsoft (R) COFF/PE Dumper Version 8.00.50727.42
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file tiny.exe
+
+PE signature found
+
+File Type: EXECUTABLE IMAGE
+
+FILE HEADER VALUES
+             14C machine (x86)
+               1 number of sections
+        4545BE5D time date stamp Mon Oct 30 00:57:01 2006
+               0 file pointer to symbol table
+               0 number of symbols
+              E0 size of optional header
+             103 characteristics
+                   Relocations stripped
+                   Executable
+                   32 bit word machine
+
+OPTIONAL HEADER VALUES
+             10B magic # (PE32)
+            8.00 linker version
+               4 size of code
+               0 size of initialized data
+               0 size of uninitialized data
+             124 entry point (00400124)
+             124 base of code
+             128 base of data
+          400000 image base (00400000 to 00400127)
+               4 section alignment
+               4 file alignment
+            4.00 operating system version
+            0.00 image version
+            4.00 subsystem version
+               0 Win32 version
+             128 size of image
+             124 size of headers
+               0 checksum
+               2 subsystem (Windows GUI)
+             400 DLL characteristics
+                   No structured exception handler
+          100000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+               0 [       0] RVA [size] of Export Directory
+               0 [       0] RVA [size] of Import Directory
+               0 [       0] RVA [size] of Resource Directory
+               0 [       0] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+               0 [       0] RVA [size] of Base Relocation Directory
+               0 [       0] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Global Pointer Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+               0 [       0] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+               0 [       0] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+               0 [       0] RVA [size] of COM Descriptor Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+   .text name
+       4 virtual size
+     124 virtual address (00400124 to 00400127)
+       4 size of raw data
+     124 file pointer to raw data (00000124 to 00000127)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60000020 flags
+         Code
+         Execute Read
+
+  00400124: 6A 2A              push        2Ah
+  00400126: 58                 pop         eax
+  00400127: C3                 ret
+
+  Summary
+
+           4 .text

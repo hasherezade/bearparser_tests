@@ -1,0 +1,45 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ [0] DOS Hdr
+[2] File Hdr
+[3] Optional Hdr
+[4] Data Directory
+[5] Section Hdrs
+wrapperNum: 
+------
+[Optional Hdr] size: 00e0 fieldsCount: 31
+
+[0000001c] Magic	[010B _] NT32 
+[0000001e] Linker Ver. (Major)	[08 _]
+[0000001f] Linker Ver. (Minor)	[00 _]
+[00000020] Size of Code	[00000004 _]
+[00000024] Size of Initialized Data	[00000000 _]
+[00000028] Size of Uninitialized Data	[00000004 _]
+[0000002c] Entry Point	[0000007C v]
+[00000030] Base of Code	[00000004 v]
+[00000034] Base of Data	[0000007C v]
+[00000038] Image Base	[00400000 _]
+[0000003c] Section Alignment	[00000004 _]
+[00000040] File Alignment	[00000004 _]
+[00000044] OS Ver. (Major)	[0004 _]
+[00000046] OS Ver. (Minor)	[0000 _]
+[00000048] Image Ver. (Major)	[0000 _]
+[0000004a] Image Ver. (Minor)	[0000 _]
+[0000004c] Subsystem Ver. (Major)	[0004 _]
+[0000004e] Subsystem Ver. Minor)	[0000 _]
+[00000050] Win32 Version Value	[00000000 _]
+[00000054] Size of Image	[00000080 _]
+[00000058] Size of Headers	[0000007C _]
+[0000005c] Checksum	[00000000 _]
+[00000060] Subsystem	[0002 _] Windows GUI 
+[00000062] Dll Characteristics	[0400 _]
+[00000064] Size of Stack Reserve	[00100000 _]
+[00000068] Size of Stack Commit	[00001000 _]
+[0000006c] Size of Heap Reserve	[00100000 _]
+[00000070] Size of Heap Commit	[00001000 _]
+[00000074] Loader Flags	[00000000 _]
+[00000078] Number of RVAs and Sizes	[00000000 _]
+[0000007c] Data Dir.	[... _]
+------
+$ Bye!
