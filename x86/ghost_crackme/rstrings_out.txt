@@ -1,0 +1,576 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ Total: 283
+max: [0012bf0a] [42]
+Color table is empty
+[0012bf34] [30]
+Image is empty
+[0012bf52] [114]
+Frame contains multiple Graphic Control Extension blocks
+[0012bfc4] [68]
+Missing, invalid or empty palette
+[0012c008] [20]
+GIF Image
+[0012c01c] [16]
+Loading
+[0012c02c] [14]
+Saving
+[0012c03a] [22]
+Converting
+[0012c050] [20]
+Rendering
+[0012c064] [16]
+Copying
+[0012c074] [22]
+Optimizing
+[0012c0aa] [58]
+Circular decoder table entry
+[0012c0e4] [44]
+Invalid Image trailer
+[0012c110] [132]
+Internal error: Extension Instance does not match Extension Label
+[0012c194] [90]
+Unsupported Application Extension block size
+[0012c1ee] [46]
+Unknown GIF block type
+[0012c21c] [80]
+Object type not supported for operation
+[0012c26c] [34]
+Invalid GIF data
+[0012c28e] [38]
+Invalid image size
+[0012c2b4] [68]
+Image exceeds Logical Screen size
+[0012c2f8] [78]
+No global or local color table defined
+[0012c346] [52]
+Invalid pixel coordinates
+[0012c37a] [48]
+Unsupported PixelFormat
+[0012c3aa] [50]
+Invalid image dimensions
+[0012c3dc] [34]
+Image has no DIB
+[0012c3fe] [50]
+Invalid stream operation
+[0012c430] [50]
+Color not in color table
+[0012c482] [12]
+UTF-8
+[0012c48e] [12]
+UTF-7
+[0012c49a] [28]
+Invalid owner
+[0012c4b6] [124]
+This control requires version 4.70 or greater of COMCTL32.DLL
+[0012c532] [44]
+Premature end of data
+[0012c55e] [42]
+Color table overflow
+[0012c588] [40]
+Invalid color index
+[0012c5b0] [82]
+Invalid color index - color map expanded
+[0012c602] [44]
+Cannot save empty GIF
+[0012c62e] [44]
+Invalid GIF signature
+[0012c65a] [112]
+Invalid number of colors specified in Screen Descriptor
+[0012c6ca] [110]
+Invalid number of colors specified in Image Descriptor
+[0012c738] [46]
+Unknown extension type
+[0012c766] [58]
+Invalid extension introducer
+[0012c7a0] [76]
+Failed to allocate memory for GIF DIB
+[0012c7ec] [58]
+Decoder bit buffer under-run
+[0012c846] [26]
+More Buttons
+[0012c860] [14]
+Expand
+[0012c86e] [156]
+Error loading previously saved settings file: %sWould you like to delete it?
+[0012c90a] [20]
+(No Name)
+[0012c91e] [46]
+&Add or Remove Buttons
+[0012c94c] [28]
+Reset Toolbar
+[0012c968] [64]
+Circular references not allowed
+[0012c9a8] [50]
+%s does not allow hiding
+[0012c9da] [48]
+Unable to save settings
+[0012ca0a] [116]
+Would you like to reset to the default Priority Schedule?
+[0012ca7e] [72]
+No OnGetItem event handler assigned
+[0012cac6] [368]
+No ActionBand style unit present in the uses clause.Your application must include either XPStyleActnCtrls, StdStyleActnCtrls or a third party ActionBand style unit in its uses clause
+[0012cc36] [10]
+ANSI
+[0012cc40] [12]
+ASCII
+[0012cc4c] [16]
+Unicode
+[0012cc5c] [38]
+Big Endian Unicode
+[0012cca2] [14]
+Shift+
+[0012ccb0] [12]
+Ctrl+
+[0012ccbc] [10]
+Alt+
+[0012ccc6] [50]
+Invalid clipboard format
+[0012ccf8] [66]
+Clipboard does not support Icons
+[0012cd3a] [44]
+Cannot open clipboard
+[0012cd66] [96]
+Menu '%s' is already being used by another form
+[0012cdc6] [64]
+Docked control must have a name
+[0012ce06] [76]
+Error removing control from dock tree
+[0012ce52] [46]
+ - Dock zone not found
+[0012ce80] [56]
+ - Dock zone has no control
+[0012ceb8] [154]
+Error loading dock zone from the stream. Expecting version %d, but found %d.
+[0012cf52] [204]
+Cannot assign a subitem to an actionbar when one of it's parent's is already assigned to an actionbar
+[0012d01e] [74]
+Item %s has subitems, delete anyway?
+[0012d068] [80]
+You are not allowed to delete this item
+[0012d0b8] [70]
+Item %s is not allowed to be moved
+[0012d11e] [24]
+Yes to &All
+[0012d136] [10]
+BkSp
+[0012d140] [8]
+Tab
+[0012d148] [8]
+Esc
+[0012d150] [12]
+Enter
+[0012d15c] [12]
+Space
+[0012d168] [10]
+PgUp
+[0012d172] [10]
+PgDn
+[0012d17c] [8]
+End
+[0012d184] [10]
+Home
+[0012d18e] [10]
+Left
+[0012d198] [6]
+Up
+[0012d19e] [12]
+Right
+[0012d1aa] [10]
+Down
+[0012d1b4] [8]
+Ins
+[0012d1bc] [8]
+Del
+[0012d1e6] [12]
+Icons
+[0012d1f2] [16]
+Bitmaps
+[0012d202] [16]
+Warning
+[0012d212] [12]
+Error
+[0012d21e] [24]
+Information
+[0012d236] [16]
+Confirm
+[0012d246] [10]
+&Yes
+[0012d250] [8]
+&No
+[0012d258] [6]
+OK
+[0012d25e] [14]
+Cancel
+[0012d26c] [12]
+&Help
+[0012d278] [14]
+&Abort
+[0012d286] [14]
+&Retry
+[0012d294] [16]
+&Ignore
+[0012d2a4] [10]
+&All
+[0012d2ae] [22]
+N&o to All
+[0012d2e6] [130]
+GroupIndex cannot be less than a previous menu item's GroupIndex
+[0012d368] [108]
+Cannot create form. No MDI forms are currently active
+[0012d3d4] [86]
+A control cannot have itself as its parent
+[0012d42a] [6]
+OK
+[0012d430] [14]
+Cancel
+[0012d43e] [10]
+&Yes
+[0012d448] [8]
+&No
+[0012d450] [12]
+&Help
+[0012d45c] [14]
+&Close
+[0012d46a] [16]
+&Ignore
+[0012d47a] [14]
+&Retry
+[0012d488] [12]
+Abort
+[0012d494] [10]
+&All
+[0012d49e] [38]
+Cannot drag a form
+[0012d4c4] [20]
+Metafiles
+[0012d4d8] [38]
+Enhanced Metafiles
+[0012d51e] [48]
+Unable to Replace Image
+[0012d54e] [48]
+Invalid ImageList Index
+[0012d57e] [84]
+Failed to read ImageList data from stream
+[0012d5d2] [82]
+Failed to write ImageList data to stream
+[0012d624] [74]
+Error creating window device context
+[0012d66e] [56]
+Error creating window class
+[0012d6a6] [88]
+Cannot focus a disabled or invisible window
+[0012d6fe] [68]
+Control '%s' has no parent window
+[0012d742] [74]
+Parent given is not a parent of '%s'
+[0012d78c] [60]
+Cannot hide an MDI Child Form
+[0012d7c8] [84]
+Cannot change Visible in OnShow or OnHide
+[0012d81c] [70]
+Cannot make a visible window modal
+[0012d862] [48]
+Menu index out of range
+[0012d892] [40]
+Menu inserted twice
+[0012d8ba] [48]
+Sub-menu is not in menu
+[0012d8ea] [56]
+Not enough timers available
+[0012d942] [16]
+Tuesday
+[0012d952] [20]
+Wednesday
+[0012d966] [18]
+Thursday
+[0012d978] [14]
+Friday
+[0012d986] [18]
+Saturday
+[0012d998] [52]
+Bitmap image is not valid
+[0012d9cc] [48]
+Icon image is not valid
+[0012d9fc] [44]
+Metafile is not valid
+[0012da28] [42]
+Invalid pixel format
+[0012da52] [58]
+Scan line index out of range
+[0012da8c] [68]
+Cannot change the size of an icon
+[0012dad0] [58]
+Unsupported clipboard format
+[0012db0a] [48]
+Out of system resources
+[0012db3a] [60]
+Canvas does not allow drawing
+[0012db76] [38]
+Invalid image size
+[0012db9c] [36]
+Invalid ImageList
+[0012dbe2] [10]
+June
+[0012dbec] [10]
+July
+[0012dbf6] [14]
+August
+[0012dc04] [20]
+September
+[0012dc18] [16]
+October
+[0012dc28] [18]
+November
+[0012dc3a] [18]
+December
+[0012dc4c] [8]
+Sun
+[0012dc54] [8]
+Mon
+[0012dc5c] [8]
+Tue
+[0012dc64] [8]
+Wed
+[0012dc6c] [8]
+Thu
+[0012dc74] [8]
+Fri
+[0012dc7c] [8]
+Sat
+[0012dc84] [14]
+Sunday
+[0012dc92] [14]
+Monday
+[0012dcc2] [8]
+Feb
+[0012dcca] [8]
+Mar
+[0012dcd2] [8]
+Apr
+[0012dcda] [8]
+May
+[0012dce2] [8]
+Jun
+[0012dcea] [8]
+Jul
+[0012dcf2] [8]
+Aug
+[0012dcfa] [8]
+Sep
+[0012dd02] [8]
+Oct
+[0012dd0a] [8]
+Nov
+[0012dd12] [8]
+Dec
+[0012dd1a] [16]
+January
+[0012dd2a] [18]
+February
+[0012dd3c] [12]
+March
+[0012dd48] [12]
+April
+[0012dd54] [8]
+May
+[0012dd7e] [124]
+Overflow while converting variant of type (%s) into type (%s)
+[0012ddfa] [34]
+Variant overflow
+[0012de1c] [34]
+Invalid argument
+[0012de3e] [42]
+Invalid variant type
+[0012de68] [48]
+Operation not supported
+[0012de98] [50]
+Unexpected variant error
+[0012deca] [44]
+External exception %x
+[0012def6] [34]
+Assertion failed
+[0012df18] [48]
+Interface not supported
+[0012df48] [58]
+Exception in safecall method
+[0012df82] [34]
+%s (%s, line %d)
+[0012dfa4] [30]
+Abstract Error
+[0012dfc2] [128]
+Access violation at address %p in module '%s'. %s of address %p
+[0012e042] [58]
+System Error.  Code: %d.
+%s
+[0012e07c] [64]
+A call to an OS function failed
+[0012e0bc] [8]
+Jan
+[0012e0e6] [46]
+Privileged instruction
+[0012e114] [82]
+Exception %s in module %s at %p.
+%s%s
+
+[0012e166] [36]
+Application Error
+[0012e18a] [100]
+Format '%s' invalid or incompatible with argument
+[0012e1ee] [56]
+No argument for format '%s'
+[0012e226] [70]
+Variant method calls not supported
+[0012e26c] [10]
+Read
+[0012e276] [12]
+Write
+[0012e282] [74]
+Error creating variant or safe array
+[0012e2cc] [84]
+Variant or safe array index out of bounds
+[0012e320] [64]
+Variant or safe array is locked
+[0012e360] [64]
+Invalid variant type conversion
+[0012e3a0] [52]
+Invalid variant operation
+[0012e3d4] [62]
+Invalid NULL variant operation
+[0012e412] [76]
+Invalid variant operation (%s%.8x)
+%s
+[0012e45e] [108]
+Could not convert variant of type (%s) into type (%s)
+[0012e4ea] [48]
+Read beyond end of file
+[0012e51a] [20]
+Disk full
+[0012e52e] [44]
+Invalid numeric input
+[0012e55a] [34]
+Division by zero
+[0012e57c] [36]
+Range check error
+[0012e5a0] [34]
+Integer overflow
+[0012e5c2] [66]
+Invalid floating point operation
+[0012e604] [64]
+Floating point division by zero
+[0012e644] [48]
+Floating point overflow
+[0012e674] [50]
+Floating point underflow
+[0012e6a6] [52]
+Invalid pointer operation
+[0012e6da] [46]
+Invalid class typecast
+[0012e708] [98]
+Access violation at address %p. %s of address %p
+[0012e76a] [34]
+Access violation
+[0012e78c] [30]
+Stack overflow
+[0012e7aa] [28]
+Control-C hit
+[0012e7e6] [48]
+%s.Seek not implemented
+[0012e816] [74]
+Operation not allowed on sorted list
+[0012e860] [74]
+%s not in a class registration group
+[0012e8aa] [54]
+Property %s does not exist
+[0012e8e0] [38]
+Stream write error
+[0012e906] [30]
+OLE error %.8x
+[0012e924] [94]
+Method '%s' not supported by automation object
+[0012e982] [96]
+Variant does not reference an automation object
+[0012e9e2] [112]
+Dispatch methods do not support more than 64 parameters
+[0012ea52] [68]
+'%s' is not a valid integer value
+[0012ea96] [28]
+Out of memory
+[0012eab2] [26]
+I/O error %d
+[0012eacc] [30]
+File not found
+[0012eaea] [34]
+Invalid filename
+[0012eb0c] [40]
+Too many open files
+[0012eb34] [38]
+File access denied
+[0012eb7a] [52]
+Cannot open file "%s". %s
+[0012ebae] [44]
+Invalid stream format
+[0012ebda] [74]
+''%s'' is not a valid component name
+[0012ec24] [46]
+Invalid property value
+[0012ec52] [44]
+Invalid property path
+[0012ec7e] [46]
+Invalid property value
+[0012ecac] [54]
+Invalid data type for '%s'
+[0012ece2] [66]
+List capacity out of bounds (%d)
+[0012ed24] [60]
+List count out of bounds (%d)
+[0012ed60] [60]
+List index out of bounds (%d)
+[0012ed9c] [88]
+Out of memory while expanding memory stream
+[0012edf4] [50]
+Error reading %s%s%s: %s
+[0012ee26] [36]
+Stream read error
+[0012ee4a] [44]
+Property is read-only
+[0012ee76] [56]
+Failed to get data for '%s'
+[0012eeae] [44]
+Resource %s not found
+[0012eefa] [70]
+Unable to find a Table of Contents
+[0012ef40] [42]
+No help found for %s
+[0012ef6a] [72]
+No context-sensitive help installed
+[0012efb2] [52]
+No help found for context
+[0012efe6] [74]
+No topic-based help system installed
+[0012f030] [56]
+Ancestor for '%s' not found
+[0012f068] [54]
+Cannot assign a %s to a %s
+[0012f09e] [48]
+Bits index out of range
+[0012f0ce] [86]
+Can't write to a read-only resource stream
+[0012f124] [140]
+CheckSynchronize called from thread $%x, which is NOT the main thread
+[0012f1b0] [38]
+Class %s not found
+[0012f1d6] [64]
+A class named %s already exists
+[0012f216] [76]
+List does not allow duplicates ($0%x)
+[0012f262] [72]
+A component named %s already exists
+[0012f2aa] [76]
+String list does not allow duplicates
+[0012f2f6] [56]
+Cannot create file "%s". %s
+
+$ Bye!

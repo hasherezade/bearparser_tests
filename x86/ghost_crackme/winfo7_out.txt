@@ -1,0 +1,151 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ [0] DOS Hdr
+[2] File Hdr
+[3] Optional Hdr
+[4] Data Directory
+[5] Section Hdrs
+[6] Export: MyCrackme.exe
+[7] Imports
+[8] Resources
+[11] Relocation Dir.
+[15] TLS
+wrapperNum: 
+------
+[Imports] size: 00dc fieldsCount: 10
+
+[000cfe00] ADVAPI32.DLL	[000DC0DC _][00000000 _][00000000 _][000DCDE4 _][000DC0F8 _]
+[000cfe14] KERNEL32.DLL	[000DC114 _][00000000 _][00000000 _][000DCDF1 _][000DC2A8 _]
+[000cfe28] VERSION.DLL	[000DC43C _][00000000 _][00000000 _][000DCDFE _][000DC44C _]
+[000cfe3c] COMCTL32.DLL	[000DC45C _][00000000 _][00000000 _][000DCE0A _][000DC4C0 _]
+[000cfe50] GDI32.DLL	[000DC524 _][00000000 _][00000000 _][000DCE17 _][000DC644 _]
+[000cfe64] USER32.DLL	[000DC764 _][00000000 _][00000000 _][000DCE21 _][000DCA40 _]
+[000cfe78] WINMM.DLL	[000DCD1C _][00000000 _][00000000 _][000DCE2C _][000DCD28 _]
+[000cfe8c] OLE32.DLL	[000DCD34 _][00000000 _][00000000 _][000DCE36 _][000DCD4C _]
+[000cfea0] OLEAUT32.DLL	[000DCD64 _][00000000 _][00000000 _][000DCE40 _][000DCD9C _]
+[000cfeb4] OLEACC.DLL	[000DCDD4 _][00000000 _][00000000 _][000DCE4D _][000DCDDC _]
+------
+------
+	 [Imports] entriesCount: 10
+Entry #0
+
+------
+[ADVAPI32.DLL] size: 0014 fieldsCount: 5
+
+[000cfe00] OriginalFirstThunk	[000DC0DC v]
+[000cfe04] TimeDateStamp	[00000000 _]
+[000cfe08] Forwarder	[00000000 _]
+[000cfe0c] NameRVA	[000DCDE4 v]
+[000cfe10] FirstThunk	[000DC0F8 v]
+------
+Have entries: 6 ( 0x6 )
+Entry #1
+
+------
+[KERNEL32.DLL] size: 0014 fieldsCount: 5
+
+[000cfe14] OriginalFirstThunk	[000DC114 v]
+[000cfe18] TimeDateStamp	[00000000 _]
+[000cfe1c] Forwarder	[00000000 _]
+[000cfe20] NameRVA	[000DCDF1 v]
+[000cfe24] FirstThunk	[000DC2A8 v]
+------
+Have entries: 100 ( 0x64 )
+Entry #2
+
+------
+[VERSION.DLL] size: 0014 fieldsCount: 5
+
+[000cfe28] OriginalFirstThunk	[000DC43C v]
+[000cfe2c] TimeDateStamp	[00000000 _]
+[000cfe30] Forwarder	[00000000 _]
+[000cfe34] NameRVA	[000DCDFE v]
+[000cfe38] FirstThunk	[000DC44C v]
+------
+Have entries: 3 ( 0x3 )
+Entry #3
+
+------
+[COMCTL32.DLL] size: 0014 fieldsCount: 5
+
+[000cfe3c] OriginalFirstThunk	[000DC45C v]
+[000cfe40] TimeDateStamp	[00000000 _]
+[000cfe44] Forwarder	[00000000 _]
+[000cfe48] NameRVA	[000DCE0A v]
+[000cfe4c] FirstThunk	[000DC4C0 v]
+------
+Have entries: 24 ( 0x18 )
+Entry #4
+
+------
+[GDI32.DLL] size: 0014 fieldsCount: 5
+
+[000cfe50] OriginalFirstThunk	[000DC524 v]
+[000cfe54] TimeDateStamp	[00000000 _]
+[000cfe58] Forwarder	[00000000 _]
+[000cfe5c] NameRVA	[000DCE17 v]
+[000cfe60] FirstThunk	[000DC644 v]
+------
+Have entries: 71 ( 0x47 )
+Entry #5
+
+------
+[USER32.DLL] size: 0014 fieldsCount: 5
+
+[000cfe64] OriginalFirstThunk	[000DC764 v]
+[000cfe68] TimeDateStamp	[00000000 _]
+[000cfe6c] Forwarder	[00000000 _]
+[000cfe70] NameRVA	[000DCE21 v]
+[000cfe74] FirstThunk	[000DCA40 v]
+------
+Have entries: 182 ( 0xb6 )
+Entry #6
+
+------
+[WINMM.DLL] size: 0014 fieldsCount: 5
+
+[000cfe78] OriginalFirstThunk	[000DCD1C v]
+[000cfe7c] TimeDateStamp	[00000000 _]
+[000cfe80] Forwarder	[00000000 _]
+[000cfe84] NameRVA	[000DCE2C v]
+[000cfe88] FirstThunk	[000DCD28 v]
+------
+Have entries: 2 ( 0x2 )
+Entry #7
+
+------
+[OLE32.DLL] size: 0014 fieldsCount: 5
+
+[000cfe8c] OriginalFirstThunk	[000DCD34 v]
+[000cfe90] TimeDateStamp	[00000000 _]
+[000cfe94] Forwarder	[00000000 _]
+[000cfe98] NameRVA	[000DCE36 v]
+[000cfe9c] FirstThunk	[000DCD4C v]
+------
+Have entries: 5 ( 0x5 )
+Entry #8
+
+------
+[OLEAUT32.DLL] size: 0014 fieldsCount: 5
+
+[000cfea0] OriginalFirstThunk	[000DCD64 v]
+[000cfea4] TimeDateStamp	[00000000 _]
+[000cfea8] Forwarder	[00000000 _]
+[000cfeac] NameRVA	[000DCE40 v]
+[000cfeb0] FirstThunk	[000DCD9C v]
+------
+Have entries: 13 ( 0xd )
+Entry #9
+
+------
+[OLEACC.DLL] size: 0014 fieldsCount: 5
+
+[000cfeb4] OriginalFirstThunk	[000DCDD4 v]
+[000cfeb8] TimeDateStamp	[00000000 _]
+[000cfebc] Forwarder	[00000000 _]
+[000cfec0] NameRVA	[000DCE4D v]
+[000cfec4] FirstThunk	[000DCDDC v]
+------
+Have entries: 1 ( 0x1 )
+$ Bye!
