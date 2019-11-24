@@ -1,0 +1,7 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ Libraries Count: 1
+Functions Count: 1
+3043 : kernel32.dll.ExitProcess
+$ Bye!
