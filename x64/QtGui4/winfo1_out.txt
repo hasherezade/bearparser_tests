@@ -1,0 +1,37 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ [0] DOS Hdr
+[1] Rich Hdr
+[2] File Hdr
+[3] Optional Hdr
+[4] Data Directory
+[5] Section Hdrs
+[6] Export: QtGui4.dll
+[7] Imports
+[8] Resources
+[9] Exceptions Dir.
+[11] Relocation Dir.
+wrapperNum: 
+------
+[Rich Hdr] size: 0070 fieldsCount: 17
+
+[00000080] DanS ID	[B82C9D85 _] DanS 
+[00000084] Checksumed padding	[EB42FCC1 _] 0 
+[00000088] Checksumed padding	[EB42FCC1 _] 0 
+[0000008c] Checksumed padding	[EB42FCC1 _] 0 
+[00000090] Comp ID	[EB42FCC0EBDAB252 _] 20115.152.1 
+[00000098] Comp ID	[EB42FCC3EBDC8AAE _] 30319.158.2 
+[000000a0] Comp ID	[EB42FCC4EBC184C8 _] 30729.131.5 
+[000000a8] Comp ID	[EB42FCC7EBDE8AAE _] 30319.156.6 
+[000000b0] Comp ID	[EB42FCD6EBD184C8 _] 30729.147.23 
+[000000b8] Comp ID	[EB42FB4AEB43FCC1 _] 0.1.1931 
+[000000c0] Comp ID	[EB42FCDCEBE88AAE _] 30319.170.29 
+[000000c8] Comp ID	[EB42FD16EBE98AAE _] 30319.171.471 
+[000000d0] Comp ID	[EB42FCC0EBD98AAE _] 30319.155.1 
+[000000d8] Comp ID	[EB42FCC0EBD88AAE _] 30319.154.1 
+[000000e0] Comp ID	[EB42FCC0EBDF8AAE _] 30319.157.1 
+[000000e8] Rich ID	[68636952 _] Rich 
+[000000ec] Checksum	[EB42FCC1 _]
+------
+$ Bye!
