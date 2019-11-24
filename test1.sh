@@ -8,8 +8,12 @@ FILE="$BINARY_PATH".dll
 echo "Starting test: " "$BINARY_PATH" ":" "$TEST_NAME"
 
 if ! test -f "$FILE"; then
-	echo "$FILE NOT found!"
-	exit 2
+	#try to use EXE extension:
+	$FILE="$BINARY_PATH".exe
+	if ! test -f "$FILE"; then
+		echo "$FILE NOT found!"
+		exit 2
+	fi
 fi
 
 $COMMANDER_PATH/bearcommander "$FILE" < "$BINARY_PATH"/"$TEST_NAME"_in.txt > "$BINARY_PATH"/"$TEST_NAME"_test.txt
