@@ -1,0 +1,64 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ Sections count = 4
+Available indexes: 0-3
+Chose the section by index: Section .text
+[raw]
+ ------------[In Hdr]------[Mapped]
+ Offset:        1000 	      1000
+ Size:          1000 	      1000
+ Scope:  [      1000 -       2000], size = 1000
+ 
+[RVA]
+ ------------[In Hdr]------[Mapped]
+ Offset:        1000 	      1000
+ Size:          1000 	      1000
+ Scope:  [      1000 -       2000], size = 1000
+ 
+$ Sections count = 4
+Available indexes: 0-3
+Chose the section by index: Section fake_imp
+[raw]
+ ------------[In Hdr]------[Mapped]
+ Offset:        2000 	      2000
+ Size:      D0701337 	      1000
+ Scope:  [      2000 -       3000], size = 1000
+ 
+[RVA]
+ ------------[In Hdr]------[Mapped]
+ Offset:        2000 	      2000
+ Size:          1000 	      1000
+ Scope:  [      2000 -       3000], size = 1000
+ 
+$ Sections count = 4
+Available indexes: 0-3
+Chose the section by index: Section real_imp
+[raw]
+ ------------[In Hdr]------[Mapped]
+ Offset:        2000 	      2000
+ Size:          1000 	      1000
+ Scope:  [      2000 -       3000], size = 1000
+ 
+[RVA]
+ ------------[In Hdr]------[Mapped]
+ Offset:        3000 	      3000
+ Size:          1000 	      1000
+ Scope:  [      3000 -       4000], size = 1000
+ 
+$ Sections count = 4
+Available indexes: 0-3
+Chose the section by index: Section test
+[raw]
+ ------------[In Hdr]------[Mapped]
+ Offset:        3000 	      3000
+ Size:           100 	       100
+ Scope:  [      3000 -       3100], size = 100
+ 
+[RVA]
+ ------------[In Hdr]------[Mapped]
+ Offset:        4000 	      4000
+ Size:          1000 	      1000
+ Scope:  [      4000 -       5000], size = 1000
+ 
+$ Bye!
