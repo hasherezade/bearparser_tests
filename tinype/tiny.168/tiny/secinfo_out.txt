@@ -1,0 +1,19 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ Sections count = 1
+Available indexes: 0-0
+Chose the section by index: Section .text
+[raw]
+ ------------[In Hdr]------[Mapped]
+ Offset:          A4 	        A4
+ Size:             4 	         4
+ Scope:  [        A4 -         A8], size = 4
+ 
+[RVA]
+ ------------[In Hdr]------[Mapped]
+ Offset:          A4 	        A4
+ Size:             4 	         4
+ Scope:  [        A4 -         A8], size = 4
+ 
+$ Bye!
