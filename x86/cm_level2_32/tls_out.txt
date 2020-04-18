@@ -1,0 +1,35 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ [0] DOS Hdr
+[1] Rich Hdr
+[2] File Hdr
+[3] Optional Hdr
+[4] Data Directory
+[5] Section Hdrs
+[7] Imports
+[8] Resources
+[11] Relocation Dir.
+[12] Debug
+[15] TLS
+[16] LdConfig
+wrapperNum: 
+------
+[TLS] size: 0018 fieldsCount: 6
+
+[00030fc0] StartAddressOfRawData	[004333C0 V]
+[00030fc4] EndAddressOfRawData	[004333C1 V]
+[00030fc8] AddressOfIndex	[00436440 V]
+[00030fcc] AddressOfCallBacks	[004261E8 V]
+[00030fd0] SizeOfZeroFill	[00000000 _]
+[00030fd4] Characteristics	[00100000 _]
+------
+Dump subentries of Index: : 
+------
+[TLS Callback] size: 0004 fieldsCount: 1
+
+[00024de8] TLS Callback	[004010E0 V]
+------
+------
+	 [TLS Callback] entriesCount: 0
+$ Bye!
