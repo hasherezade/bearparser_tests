@@ -32,6 +32,6 @@ wrapperNum:
 [000000d8] Comp ID	[EB42FCC0EBD88AAE _] 30319.154.1 
 [000000e0] Comp ID	[EB42FCC0EBDF8AAE _] 30319.157.1 
 [000000e8] Rich ID	[68636952 _] Rich 
-[000000ec] Checksum	[EB42FCC1 _]
+[000000ec] Checksum	[EB42FCC1 _] eb42fcc
 ------
 $ Bye!
