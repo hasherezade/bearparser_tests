@@ -1,0 +1,78 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ [0] DOS Hdr
+[1] Rich Hdr
+[2] File Hdr
+[3] Optional Hdr
+[4] Data Directory
+[5] Section Hdrs
+[6] test_case5_dll.dll
+[7] Imports
+[8] Resources
+[9] Exceptions Dir.
+[11] Relocation Dir.
+[12] Debug
+[16] LdConfig
+wrapperNum: 
+------
+[test_case5_dll.dll] size: 0028 fieldsCount: 11
+
+[0000bca0] Characteristics	[00000000 _]
+[0000bca4] TimeDateStamp	[601BDA22 _]
+[0000bca8] MajorVersion	[0000 _]
+[0000bcaa] MinorVersion	[0000 _]
+[0000bcac] Name	[0000CEEE v]
+[0000bcb0] Base	[00000002 _]
+[0000bcb4] NumberOfFunctions	[00000005 _]
+[0000bcb8] NumberOfNames	[00000003 _]
+[0000bcbc] AddressOfFunctions	[0000CEC8 v]
+[0000bcc0] AddressOfNames	[0000CEDC v]
+[0000bcc4] AddressOfNameOrdinals	[0000CEE8 v]
+------
+------
+	 [test_case5_dll.dll] entriesCount: 5
+Entry #0
+
+------
+[<ord: 2>] size: 0004 fieldsCount: 2
+
+[0000bcc8] FuncRva	[0000119A v]
+------
+
+Entry #1
+
+------
+[test_checksum1] size: 0004 fieldsCount: 2
+
+[0000bccc] FuncRva	[0000106E v]
+[0000bcdc] FuncNameRva	[0000CF01 v]
+------
+
+Entry #2
+
+------
+[<ord: 4>] size: 0004 fieldsCount: 2
+
+[0000bcd0] FuncRva	[00001190 v]
+------
+
+Entry #3
+
+------
+[test_checksum3] size: 0004 fieldsCount: 2
+
+[0000bcd4] FuncRva	[00001069 v]
+[0000bce0] FuncNameRva	[0000CF10 v]
+------
+
+Entry #4
+
+------
+[test_checksum5] size: 0004 fieldsCount: 2
+
+[0000bcd8] FuncRva	[0000107D v]
+[0000bce4] FuncNameRva	[0000CF1F v]
+------
+
+$ Bye!
