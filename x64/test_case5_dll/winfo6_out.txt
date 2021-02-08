@@ -7,7 +7,7 @@ $ [0] DOS Hdr
 [3] Optional Hdr
 [4] Data Directory
 [5] Section Hdrs
-[6] test_case5_dll.dll
+[6] Export: test_case5_dll.dll
 [7] Imports
 [8] Resources
 [9] Exceptions Dir.
@@ -16,7 +16,7 @@ $ [0] DOS Hdr
 [16] LdConfig
 wrapperNum: 
 ------
-[test_case5_dll.dll] size: 0028 fieldsCount: 11
+[Export: test_case5_dll.dll] size: 0028 fieldsCount: 11
 
 [0000bca0] Characteristics	[00000000 _]
 [0000bca4] TimeDateStamp	[601BDA22 _]
@@ -31,7 +31,7 @@ wrapperNum:
 [0000bcc4] AddressOfNameOrdinals	[0000CEE8 v]
 ------
 ------
-	 [test_case5_dll.dll] entriesCount: 5
+	 [Export: test_case5_dll.dll] entriesCount: 5
 Entry #0
 
 ------

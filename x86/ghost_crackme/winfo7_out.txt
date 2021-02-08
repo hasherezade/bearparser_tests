@@ -6,7 +6,7 @@ $ [0] DOS Hdr
 [3] Optional Hdr
 [4] Data Directory
 [5] Section Hdrs
-[6] MyCrackme.exe
+[6] Export: MyCrackme.exe
 [7] Imports
 [8] Resources
 [11] Relocation Dir.
