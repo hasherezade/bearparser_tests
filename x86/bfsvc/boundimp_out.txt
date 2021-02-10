@@ -1,0 +1,122 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ [0] DOS Hdr
+[1] Rich Hdr
+[2] File Hdr
+[3] Optional Hdr
+[4] Data Directory
+[5] Section Hdrs
+[7] Imports
+[8] Resources
+[11] Relocation Dir.
+[12] Debug
+[16] LdConfig
+[17] BoundImp
+wrapperNum: 
+------
+[BoundImp] size: 0048 fieldsCount: 9
+
+[00000278] ADVAPI32.dll	[4CE7B706 _][0050 _][0000 _]
+[00000280] KERNEL32.dll	[4CE7B8EF _][005D _][0001 _]
+[00000288] NTDLL.DLL	[4CE7B96E _][006A _][0000 _]
+[00000290] msvcrt.dll	[4CE7B8E0 _][0074 _][0000 _]
+[00000298] imagehlp.dll	[4CE7B83A _][007F _][0000 _]
+[000002a0] SHELL32.dll	[4CE7B9DE _][008C _][0000 _]
+[000002a8] SHLWAPI.dll	[4CE7B9E2 _][0098 _][0000 _]
+[000002b0] NTDLL.DLL	[4CE7B96E _][006A _][0000 _]
+[000002b8] VERSION.dll	[4CE7BA25 _][00A4 _][0000 _]
+------
+------
+	 [BoundImp] entriesCount: 9
+Entry #0
+
+------
+[ADVAPI32.dll] size: 0008 fieldsCount: 3
+
+[00000278] TimeDateStamp	[4CE7B706 _]
+[0000027c] OffsetModuleName	[0050 _]
+[0000027e] NumberOfModuleForwarderRefs	[0000 _]
+------
+
+Entry #1
+
+------
+[KERNEL32.dll] size: 0008 fieldsCount: 3
+
+[00000280] TimeDateStamp	[4CE7B8EF _]
+[00000284] OffsetModuleName	[005D _]
+[00000286] NumberOfModuleForwarderRefs	[0001 _]
+------
+
+Entry #2
+
+------
+[NTDLL.DLL] size: 0008 fieldsCount: 3
+
+[00000288] TimeDateStamp	[4CE7B96E _]
+[0000028c] OffsetModuleName	[006A _]
+[0000028e] NumberOfModuleForwarderRefs	[0000 _]
+------
+
+Entry #3
+
+------
+[msvcrt.dll] size: 0008 fieldsCount: 3
+
+[00000290] TimeDateStamp	[4CE7B8E0 _]
+[00000294] OffsetModuleName	[0074 _]
+[00000296] NumberOfModuleForwarderRefs	[0000 _]
+------
+
+Entry #4
+
+------
+[imagehlp.dll] size: 0008 fieldsCount: 3
+
+[00000298] TimeDateStamp	[4CE7B83A _]
+[0000029c] OffsetModuleName	[007F _]
+[0000029e] NumberOfModuleForwarderRefs	[0000 _]
+------
+
+Entry #5
+
+------
+[SHELL32.dll] size: 0008 fieldsCount: 3
+
+[000002a0] TimeDateStamp	[4CE7B9DE _]
+[000002a4] OffsetModuleName	[008C _]
+[000002a6] NumberOfModuleForwarderRefs	[0000 _]
+------
+
+Entry #6
+
+------
+[SHLWAPI.dll] size: 0008 fieldsCount: 3
+
+[000002a8] TimeDateStamp	[4CE7B9E2 _]
+[000002ac] OffsetModuleName	[0098 _]
+[000002ae] NumberOfModuleForwarderRefs	[0000 _]
+------
+
+Entry #7
+
+------
+[NTDLL.DLL] size: 0008 fieldsCount: 3
+
+[000002b0] TimeDateStamp	[4CE7B96E _]
+[000002b4] OffsetModuleName	[006A _]
+[000002b6] NumberOfModuleForwarderRefs	[0000 _]
+------
+
+Entry #8
+
+------
+[VERSION.dll] size: 0008 fieldsCount: 3
+
+[000002b8] TimeDateStamp	[4CE7BA25 _]
+[000002bc] OffsetModuleName	[00A4 _]
+[000002be] NumberOfModuleForwarderRefs	[0000 _]
+------
+
+$ Bye!
