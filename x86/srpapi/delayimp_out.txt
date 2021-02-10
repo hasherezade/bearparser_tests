@@ -1,0 +1,88 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ [0] DOS Hdr
+[1] Rich Hdr
+[2] File Hdr
+[3] Optional Hdr
+[4] Data Directory
+[5] Section Hdrs
+[6] Export: srpapi.dll
+[7] Imports
+[8] Resources
+[11] Relocation Dir.
+[12] Debug
+[16] LdConfig
+[19] DelayImports
+wrapperNum: 
+------
+[DelayImports] size: 00a0 fieldsCount: 4
+
+[00016ab0] AUTHZ.dll	[00000001 _][00001380 _][00019484 _][0001C000 _][00017750 _][00017A40 _][00000000 _][00000000 _]
+[00016ad0] WINTRUST.dll	[00000001 _][00001390 _][00019488 _][0001C024 _][00017774 _][00017A54 _][00000000 _][00000000 _]
+[00016af0] ext-ms-win-security-capauthz-l1-1-0.dll	[00000001 _][00001400 _][00019490 _][0001C050 _][000177A0 _][00017A90 _][00000000 _][00000000 _]
+[00016b10] ext-ms-win-security-chambers-l1-1-0.dll	[00000001 _][000014C0 _][00019498 _][0001C058 _][000177A8 _][00017A98 _][00000000 _][00000000 _]
+------
+------
+	 [DelayImports] entriesCount: 4
+Entry #0
+
+------
+[AUTHZ.dll] size: 0020 fieldsCount: 8
+
+[00016ab0] Attributes	[00000001 _]
+[00016ab4] Name Addr.	[00001380 v]
+[00016ab8] ModuleHandle	[00019484 v]
+[00016abc] IAT	[0001C000 v]
+[00016ac0] ImportNameTable	[00017750 v]
+[00016ac4] BoundIAT	[00017A40 v]
+[00016ac8] UnloadIAT	[00000000 v]
+[00016acc] Timestamp	[00000000 _]
+------
+Have entries: 8 ( 0x8 )
+Entry #1
+
+------
+[WINTRUST.dll] size: 0020 fieldsCount: 8
+
+[00016ad0] Attributes	[00000001 _]
+[00016ad4] Name Addr.	[00001390 v]
+[00016ad8] ModuleHandle	[00019488 v]
+[00016adc] IAT	[0001C024 v]
+[00016ae0] ImportNameTable	[00017774 v]
+[00016ae4] BoundIAT	[00017A54 v]
+[00016ae8] UnloadIAT	[00000000 v]
+[00016aec] Timestamp	[00000000 _]
+------
+Have entries: 10 ( 0xa )
+Entry #2
+
+------
+[ext-ms-win-security-capauthz-l1-1-0.dll] size: 0020 fieldsCount: 8
+
+[00016af0] Attributes	[00000001 _]
+[00016af4] Name Addr.	[00001400 v]
+[00016af8] ModuleHandle	[00019490 v]
+[00016afc] IAT	[0001C050 v]
+[00016b00] ImportNameTable	[000177A0 v]
+[00016b04] BoundIAT	[00017A90 v]
+[00016b08] UnloadIAT	[00000000 v]
+[00016b0c] Timestamp	[00000000 _]
+------
+Have entries: 1 ( 0x1 )
+Entry #3
+
+------
+[ext-ms-win-security-chambers-l1-1-0.dll] size: 0020 fieldsCount: 8
+
+[00016b10] Attributes	[00000001 _]
+[00016b14] Name Addr.	[000014C0 v]
+[00016b18] ModuleHandle	[00019498 v]
+[00016b1c] IAT	[0001C058 v]
+[00016b20] ImportNameTable	[000177A8 v]
+[00016b24] BoundIAT	[00017A98 v]
+[00016b28] UnloadIAT	[00000000 v]
+[00016b2c] Timestamp	[00000000 _]
+------
+Have entries: 2 ( 0x2 )
+$ Bye!
