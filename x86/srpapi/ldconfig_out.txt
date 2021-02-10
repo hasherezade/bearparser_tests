@@ -1,0 +1,577 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ [0] DOS Hdr
+[1] Rich Hdr
+[2] File Hdr
+[3] Optional Hdr
+[4] Data Directory
+[5] Section Hdrs
+[6] Export: srpapi.dll
+[7] Imports
+[8] Resources
+[11] Relocation Dir.
+[12] Debug
+[16] LdConfig
+[19] DelayImports
+wrapperNum: 
+------
+[LdConfig] size: 00a0 fieldsCount: 44
+
+[000005a0] Size	[000000A4 _]
+[000005a4] TimeDateStamp	[00000000 _]
+[000005a8] MajorVersion	[0000 _]
+[000005aa] MinorVersion	[0000 _]
+[000005ac] GlobalFlagsClear	[00000000 _]
+[000005b0] GlobalFlagsSet	[00000000 _]
+[000005b4] CriticalSectionDefaultTimeout	[00000000 _]
+[000005b8] DeCommitFreeBlockThreshold	[00000000 _]
+[000005bc] DeCommitTotalFreeThreshold	[00000000 _]
+[000005c0] LockPrefixTable	[00000000 V]
+[000005c4] MaximumAllocationSize	[00000000 _]
+[000005c8] VirtualMemoryThreshold	[00000000 _]
+[000005cc] ProcessHeapFlags	[00000000 _]
+[000005d0] ProcessAffinityMask	[00000000 _]
+[000005d4] CSDVersion	[0000 _]
+[000005d6] DependentLoadFlags	[0000 _]
+[000005d8] EditList	[00000000 V]
+[000005dc] SecurityCookie	[10019104 V]
+[000005e0] SEHandlerTable	[1000A0F0 V]
+[000005e4] SEHandlerCount	[00000004 _]
+[000005e8] GuardCFCheckFunctionPtr	[1001A2FC V]
+[000005ec] GuardCFDispatchFunctionPointer	[00000000 V]
+[000005f0] GuardCFFunctionTable	[1000126C V]
+[000005f4] GuardCFFunctionCount	[00000033 _]
+[000005f8] GuardFlags	[10017500 _]
+[000005fc] CodeIntegrity.Flags	[0000 _]
+[000005fe] CodeIntegrity.Catalog	[0000 _]
+[00000600] CodeIntegrity.CatalogOffset	[00000000 _]
+[00000604] CodeIntegrity.Reserved	[00000000 _]
+[00000608] GuardAddressTakenIatEntryTable	[1000136C V]
+[0000060c] GuardAddressTakenIatEntryCount	[00000002 _]
+[00000610] GuardLongJumpTargetTable	[00000000 V]
+[00000614] GuardLongJumpTargetCount	[00000000 _]
+[00000618] DynamicValueRelocTable	[00000000 V]
+[0000061c] CHPEMetadataPointer	[00000000 _]
+[00000620] GuardRFFailureRoutine	[00000000 V]
+[00000624] GuardRFFailureRoutineFunctionPointer	[00000000 V]
+[00000628] DynamicValueRelocTableOffset	[00000000 _]
+[0000062c] DynamicValueRelocTableSection	[0000 _]
+[0000062e] Reserved2	[0000 _]
+[00000630] GuardRFVerifyStackPointerFunctionPointer	[00000000 V]
+[00000634] HotPatchTableOffset	[00000000 _]
+[00000638] Reserved3	[00000000 _]
+[0000063c] EnclaveConfigurationPointer	[00000000 V]
+------
+------
+	 [LdConfig] entriesCount: 57
+Entry #0
+
+------
+[Address] size: 0004 fieldsCount: 1
+
+[000094f0] Address	[00016D80 v]
+------
+
+Entry #1
+
+------
+[Address] size: 0004 fieldsCount: 1
+
+[000094f4] Address	[000173F8 v]
+------
+
+Entry #2
+
+------
+[Address] size: 0004 fieldsCount: 1
+
+[000094f8] Address	[00017436 v]
+------
+
+Entry #3
+
+------
+[Address] size: 0004 fieldsCount: 1
+
+[000094fc] Address	[00017466 v]
+------
+
+Entry #4
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[0000066c] Address	[0000A3F0 v]
+[00000670] Metadata	[00 _]
+------
+
+Entry #5
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000671] Address	[0000A420 v]
+[00000675] Metadata	[00 _]
+------
+
+Entry #6
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000676] Address	[0000A440 v]
+[0000067a] Metadata	[00 _]
+------
+
+Entry #7
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[0000067b] Address	[0000A450 v]
+[0000067f] Metadata	[00 _]
+------
+
+Entry #8
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000680] Address	[0000A460 v]
+[00000684] Metadata	[00 _]
+------
+
+Entry #9
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000685] Address	[0000A490 v]
+[00000689] Metadata	[02 _]
+------
+
+Entry #10
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[0000068a] Address	[0000A500 v]
+[0000068e] Metadata	[02 _]
+------
+
+Entry #11
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[0000068f] Address	[0000A570 v]
+[00000693] Metadata	[02 _]
+------
+
+Entry #12
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000694] Address	[0000A5E0 v]
+[00000698] Metadata	[02 _]
+------
+
+Entry #13
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000699] Address	[0000A630 v]
+[0000069d] Metadata	[02 _]
+------
+
+Entry #14
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[0000069e] Address	[0000A670 v]
+[000006a2] Metadata	[02 _]
+------
+
+Entry #15
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006a3] Address	[0000A720 v]
+[000006a7] Metadata	[02 _]
+------
+
+Entry #16
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006a8] Address	[0000A830 v]
+[000006ac] Metadata	[02 _]
+------
+
+Entry #17
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006ad] Address	[0000A950 v]
+[000006b1] Metadata	[02 _]
+------
+
+Entry #18
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006b2] Address	[0000A990 v]
+[000006b6] Metadata	[02 _]
+------
+
+Entry #19
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006b7] Address	[0000AD00 v]
+[000006bb] Metadata	[00 _]
+------
+
+Entry #20
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006bc] Address	[0000B2E0 v]
+[000006c0] Metadata	[00 _]
+------
+
+Entry #21
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006c1] Address	[0000B3F0 v]
+[000006c5] Metadata	[00 _]
+------
+
+Entry #22
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006c6] Address	[0000B420 v]
+[000006ca] Metadata	[00 _]
+------
+
+Entry #23
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006cb] Address	[0000B430 v]
+[000006cf] Metadata	[00 _]
+------
+
+Entry #24
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006d0] Address	[0000B470 v]
+[000006d4] Metadata	[00 _]
+------
+
+Entry #25
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006d5] Address	[0000B740 v]
+[000006d9] Metadata	[00 _]
+------
+
+Entry #26
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006da] Address	[0000B7E0 v]
+[000006de] Metadata	[00 _]
+------
+
+Entry #27
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006df] Address	[0000B810 v]
+[000006e3] Metadata	[00 _]
+------
+
+Entry #28
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006e4] Address	[0000B850 v]
+[000006e8] Metadata	[00 _]
+------
+
+Entry #29
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006e9] Address	[0000B860 v]
+[000006ed] Metadata	[00 _]
+------
+
+Entry #30
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006ee] Address	[0000B890 v]
+[000006f2] Metadata	[00 _]
+------
+
+Entry #31
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006f3] Address	[0000C4D0 v]
+[000006f7] Metadata	[00 _]
+------
+
+Entry #32
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006f8] Address	[0000C5D0 v]
+[000006fc] Metadata	[00 _]
+------
+
+Entry #33
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[000006fd] Address	[0000C600 v]
+[00000701] Metadata	[00 _]
+------
+
+Entry #34
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000702] Address	[0000CCD0 v]
+[00000706] Metadata	[02 _]
+------
+
+Entry #35
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000707] Address	[0000D900 v]
+[0000070b] Metadata	[02 _]
+------
+
+Entry #36
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[0000070c] Address	[0000DAB0 v]
+[00000710] Metadata	[00 _]
+------
+
+Entry #37
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000711] Address	[0000DB00 v]
+[00000715] Metadata	[02 _]
+------
+
+Entry #38
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000716] Address	[0000DE80 v]
+[0000071a] Metadata	[02 _]
+------
+
+Entry #39
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[0000071b] Address	[0000DF20 v]
+[0000071f] Metadata	[02 _]
+------
+
+Entry #40
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000720] Address	[0000DFC0 v]
+[00000724] Metadata	[02 _]
+------
+
+Entry #41
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000725] Address	[0000E030 v]
+[00000729] Metadata	[02 _]
+------
+
+Entry #42
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[0000072a] Address	[0000E190 v]
+[0000072e] Metadata	[02 _]
+------
+
+Entry #43
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[0000072f] Address	[0000E230 v]
+[00000733] Metadata	[02 _]
+------
+
+Entry #44
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000734] Address	[0000E2A0 v]
+[00000738] Metadata	[02 _]
+------
+
+Entry #45
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000739] Address	[0000EA70 v]
+[0000073d] Metadata	[02 _]
+------
+
+Entry #46
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[0000073e] Address	[00016560 v]
+[00000742] Metadata	[00 _]
+------
+
+Entry #47
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000743] Address	[00016770 v]
+[00000747] Metadata	[00 _]
+------
+
+Entry #48
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000748] Address	[00016A80 v]
+[0000074c] Metadata	[00 _]
+------
+
+Entry #49
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[0000074d] Address	[00016C90 v]
+[00000751] Metadata	[00 _]
+------
+
+Entry #50
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000752] Address	[00016CC0 v]
+[00000756] Metadata	[00 _]
+------
+
+Entry #51
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000757] Address	[00016D80 v]
+[0000075b] Metadata	[00 _]
+------
+
+Entry #52
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[0000075c] Address	[00017010 v]
+[00000760] Metadata	[00 _]
+------
+
+Entry #53
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000761] Address	[00017490 v]
+[00000765] Metadata	[00 _]
+------
+
+Entry #54
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000766] Address	[000174A0 v]
+[0000076a] Metadata	[00 _]
+------
+
+Entry #55
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[0000076c] Address	[0001A054 v]
+[00000770] Metadata	[00 _]
+------
+
+Entry #56
+
+------
+[Address] size: 0005 fieldsCount: 2
+
+[00000771] Address	[0001A1B0 v]
+[00000775] Metadata	[00 _]
+------
+
+$ Bye!
