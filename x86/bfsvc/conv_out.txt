@@ -1,0 +1,14 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ RVA: [RVA]	->	[raw]:
+[00000100]	->	[00000100]
+$ RVA: [RVA]	->	[raw]:
+[00000200]	->	[00000200]
+$ RVA: [RVA]	->	[raw]:
+[00000300]	->	[00000300]
+$ RVA: [WARNING] This address cannot be mapped
+$ RVA: [WARNING] This address cannot be mapped
+$ RVA: [RVA]	->	[raw]:
+[00001000]	->	[00000400]
+$ Bye!
