@@ -1,3 +1,7 @@
 winfo 19
+einfo 19 0
+einfo 19 1
+einfo 19 2
+einfo 19 3
 q
 
