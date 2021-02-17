@@ -16,7 +16,7 @@ $ [0] DOS Hdr
 [19] DelayImports
 wrapperNum: 
 ------
-[LdConfig] size: 00a0 fieldsCount: 44
+[LdConfig] size: 00a4 fieldsCount: 45
 
 [000005a0] Size	[000000A4 _]
 [000005a4] TimeDateStamp	[00000000 _]
@@ -62,6 +62,7 @@ wrapperNum:
 [00000634] HotPatchTableOffset	[00000000 _]
 [00000638] Reserved3	[00000000 _]
 [0000063c] EnclaveConfigurationPointer	[00000000 V]
+[00000640] VolatileMetadataPointer	[00000000 V]
 ------
 ------
 	 [LdConfig] entriesCount: 57
