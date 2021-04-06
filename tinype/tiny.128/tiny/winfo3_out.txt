@@ -19,7 +19,7 @@ wrapperNum:
 [0000002c] Entry Point	[0000007C v]
 [00000030] Base of Code	[00000004 v]
 [00000034] Base of Data	[0000007C v]
-[00000038] Image Base	[00400000 _]
+[00000038] Image Base	[00400000 V]
 [0000003c] Section Alignment	[00000004 _]
 [00000040] File Alignment	[00000004 _]
 [00000044] OS Ver. (Major)	[0004 _]
