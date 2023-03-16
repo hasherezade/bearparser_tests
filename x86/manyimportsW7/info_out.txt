@@ -1,0 +1,19 @@
+Type: PE
+Buffering...
+Parsing executable...
+$ Bit mode: 	32
+Entry point: 	[00001000 v]
+Raw size: 	[00100400]
+Raw align. 	[00000200]
+Virtual size: 	[00102000]
+Virtual align. 	[00001000]
+Contains:
+[0] DOS Hdr
+[2] File Hdr
+[3] Optional Hdr
+[4] Data Directory
+[5] Section Hdrs
+[7] Imports
+[15] TLS
+
+$ Bye!
