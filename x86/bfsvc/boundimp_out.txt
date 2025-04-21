@@ -15,7 +15,7 @@ $ [0] DOS Hdr
 [17] BoundImp
 wrapperNum: 
 ------
-[BoundImp] size: 0048 fieldsCount: 9
+[BoundImp] size: 0x48 fieldsCount: 9
 
 [00000278] ADVAPI32.dll	[4CE7B706 _][0050 _][0000 _]
 [00000280] KERNEL32.dll	[4CE7B8EF _][005D _][0001 _]
@@ -32,7 +32,7 @@ wrapperNum:
 Entry #0
 
 ------
-[ADVAPI32.dll] size: 0008 fieldsCount: 3
+[ADVAPI32.dll] size: 0x8 fieldsCount: 3
 
 [00000278] TimeDateStamp	[4CE7B706 _]
 [0000027c] OffsetModuleName	[0050 _]
@@ -42,7 +42,7 @@ Entry #0
 Entry #1
 
 ------
-[KERNEL32.dll] size: 0008 fieldsCount: 3
+[KERNEL32.dll] size: 0x8 fieldsCount: 3
 
 [00000280] TimeDateStamp	[4CE7B8EF _]
 [00000284] OffsetModuleName	[005D _]
@@ -52,7 +52,7 @@ Entry #1
 Entry #2
 
 ------
-[NTDLL.DLL] size: 0008 fieldsCount: 3
+[NTDLL.DLL] size: 0x8 fieldsCount: 3
 
 [00000288] TimeDateStamp	[4CE7B96E _]
 [0000028c] OffsetModuleName	[006A _]
@@ -62,7 +62,7 @@ Entry #2
 Entry #3
 
 ------
-[msvcrt.dll] size: 0008 fieldsCount: 3
+[msvcrt.dll] size: 0x8 fieldsCount: 3
 
 [00000290] TimeDateStamp	[4CE7B8E0 _]
 [00000294] OffsetModuleName	[0074 _]
@@ -72,7 +72,7 @@ Entry #3
 Entry #4
 
 ------
-[imagehlp.dll] size: 0008 fieldsCount: 3
+[imagehlp.dll] size: 0x8 fieldsCount: 3
 
 [00000298] TimeDateStamp	[4CE7B83A _]
 [0000029c] OffsetModuleName	[007F _]
@@ -82,7 +82,7 @@ Entry #4
 Entry #5
 
 ------
-[SHELL32.dll] size: 0008 fieldsCount: 3
+[SHELL32.dll] size: 0x8 fieldsCount: 3
 
 [000002a0] TimeDateStamp	[4CE7B9DE _]
 [000002a4] OffsetModuleName	[008C _]
@@ -92,7 +92,7 @@ Entry #5
 Entry #6
 
 ------
-[SHLWAPI.dll] size: 0008 fieldsCount: 3
+[SHLWAPI.dll] size: 0x8 fieldsCount: 3
 
 [000002a8] TimeDateStamp	[4CE7B9E2 _]
 [000002ac] OffsetModuleName	[0098 _]
@@ -102,7 +102,7 @@ Entry #6
 Entry #7
 
 ------
-[NTDLL.DLL] size: 0008 fieldsCount: 3
+[NTDLL.DLL] size: 0x8 fieldsCount: 3
 
 [000002b0] TimeDateStamp	[4CE7B96E _]
 [000002b4] OffsetModuleName	[006A _]
@@ -112,7 +112,7 @@ Entry #7
 Entry #8
 
 ------
-[VERSION.dll] size: 0008 fieldsCount: 3
+[VERSION.dll] size: 0x8 fieldsCount: 3
 
 [000002b8] TimeDateStamp	[4CE7BA25 _]
 [000002bc] OffsetModuleName	[00A4 _]

@@ -16,7 +16,7 @@ $ [0] DOS Hdr
 [16] LdConfig
 wrapperNum: 
 ------
-[TLS] size: 0028 fieldsCount: 6
+[TLS] size: 0x28 fieldsCount: 6
 
 [00038d60] StartAddressOfRawData	[000000014003B0B0 V]
 [00038d68] EndAddressOfRawData	[000000014003B0B1 V]
@@ -27,7 +27,7 @@ wrapperNum:
 ------
 Dump subentries of Index: : 
 ------
-[TLS Callback] size: 0008 fieldsCount: 1
+[TLS Callback] size: 0x8 fieldsCount: 1
 
 [00028808] TLS Callback	[0000000140001120 V]
 ------

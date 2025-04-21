@@ -13,7 +13,7 @@ $ [0] DOS Hdr
 [15] TLS
 wrapperNum: 
 ------
-[Imports] size: 00dc fieldsCount: 10
+[Imports] size: 0xdc fieldsCount: 10
 
 [000cfe00] ADVAPI32.DLL	[000DC0DC _][00000000 _][00000000 _][000DCDE4 _][000DC0F8 _]
 [000cfe14] KERNEL32.DLL	[000DC114 _][00000000 _][00000000 _][000DCDF1 _][000DC2A8 _]
@@ -31,7 +31,7 @@ wrapperNum:
 Entry #0
 
 ------
-[ADVAPI32.DLL] size: 0014 fieldsCount: 5
+[ADVAPI32.DLL] size: 0x14 fieldsCount: 5
 
 [000cfe00] OriginalFirstThunk	[000DC0DC v]
 [000cfe04] TimeDateStamp	[00000000 _]
@@ -43,7 +43,7 @@ Have entries: 6 ( 0x6 )
 Entry #1
 
 ------
-[KERNEL32.DLL] size: 0014 fieldsCount: 5
+[KERNEL32.DLL] size: 0x14 fieldsCount: 5
 
 [000cfe14] OriginalFirstThunk	[000DC114 v]
 [000cfe18] TimeDateStamp	[00000000 _]
@@ -55,7 +55,7 @@ Have entries: 100 ( 0x64 )
 Entry #2
 
 ------
-[VERSION.DLL] size: 0014 fieldsCount: 5
+[VERSION.DLL] size: 0x14 fieldsCount: 5
 
 [000cfe28] OriginalFirstThunk	[000DC43C v]
 [000cfe2c] TimeDateStamp	[00000000 _]
@@ -67,7 +67,7 @@ Have entries: 3 ( 0x3 )
 Entry #3
 
 ------
-[COMCTL32.DLL] size: 0014 fieldsCount: 5
+[COMCTL32.DLL] size: 0x14 fieldsCount: 5
 
 [000cfe3c] OriginalFirstThunk	[000DC45C v]
 [000cfe40] TimeDateStamp	[00000000 _]
@@ -79,7 +79,7 @@ Have entries: 24 ( 0x18 )
 Entry #4
 
 ------
-[GDI32.DLL] size: 0014 fieldsCount: 5
+[GDI32.DLL] size: 0x14 fieldsCount: 5
 
 [000cfe50] OriginalFirstThunk	[000DC524 v]
 [000cfe54] TimeDateStamp	[00000000 _]
@@ -91,7 +91,7 @@ Have entries: 71 ( 0x47 )
 Entry #5
 
 ------
-[USER32.DLL] size: 0014 fieldsCount: 5
+[USER32.DLL] size: 0x14 fieldsCount: 5
 
 [000cfe64] OriginalFirstThunk	[000DC764 v]
 [000cfe68] TimeDateStamp	[00000000 _]
@@ -103,7 +103,7 @@ Have entries: 182 ( 0xb6 )
 Entry #6
 
 ------
-[WINMM.DLL] size: 0014 fieldsCount: 5
+[WINMM.DLL] size: 0x14 fieldsCount: 5
 
 [000cfe78] OriginalFirstThunk	[000DCD1C v]
 [000cfe7c] TimeDateStamp	[00000000 _]
@@ -115,7 +115,7 @@ Have entries: 2 ( 0x2 )
 Entry #7
 
 ------
-[OLE32.DLL] size: 0014 fieldsCount: 5
+[OLE32.DLL] size: 0x14 fieldsCount: 5
 
 [000cfe8c] OriginalFirstThunk	[000DCD34 v]
 [000cfe90] TimeDateStamp	[00000000 _]
@@ -127,7 +127,7 @@ Have entries: 5 ( 0x5 )
 Entry #8
 
 ------
-[OLEAUT32.DLL] size: 0014 fieldsCount: 5
+[OLEAUT32.DLL] size: 0x14 fieldsCount: 5
 
 [000cfea0] OriginalFirstThunk	[000DCD64 v]
 [000cfea4] TimeDateStamp	[00000000 _]
@@ -139,7 +139,7 @@ Have entries: 13 ( 0xd )
 Entry #9
 
 ------
-[OLEACC.DLL] size: 0014 fieldsCount: 5
+[OLEACC.DLL] size: 0x14 fieldsCount: 5
 
 [000cfeb4] OriginalFirstThunk	[000DCDD4 v]
 [000cfeb8] TimeDateStamp	[00000000 _]

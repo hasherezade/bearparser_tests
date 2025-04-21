@@ -7,7 +7,7 @@ $ [0] DOS Hdr
 [5] Section Hdrs
 wrapperNum: 
 ------
-[Optional Hdr] size: 00e0 fieldsCount: 31
+[Optional Hdr] size: 0xe0 fieldsCount: 31
 
 [0000001c] Magic	[010B _] NT32 
 [0000001e] Linker Ver. (Major)	[08 _]

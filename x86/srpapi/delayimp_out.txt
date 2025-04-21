@@ -16,7 +16,7 @@ $ [0] DOS Hdr
 [19] DelayImports
 wrapperNum: 
 ------
-[DelayImports] size: 00a0 fieldsCount: 4
+[DelayImports] size: 0xa0 fieldsCount: 4
 
 [00016ab0] AUTHZ.dll	[00000001 _][00001380 _][00019484 _][0001C000 _][00017750 _][00017A40 _][00000000 _][00000000 _]
 [00016ad0] WINTRUST.dll	[00000001 _][00001390 _][00019488 _][0001C024 _][00017774 _][00017A54 _][00000000 _][00000000 _]
@@ -28,7 +28,7 @@ wrapperNum:
 Entry #0
 
 ------
-[AUTHZ.dll] size: 0020 fieldsCount: 8
+[AUTHZ.dll] size: 0x20 fieldsCount: 8
 
 [00016ab0] Attributes	[00000001 _]
 [00016ab4] Name Addr.	[00001380 v]
@@ -43,7 +43,7 @@ Have entries: 8 ( 0x8 )
 Entry #1
 
 ------
-[WINTRUST.dll] size: 0020 fieldsCount: 8
+[WINTRUST.dll] size: 0x20 fieldsCount: 8
 
 [00016ad0] Attributes	[00000001 _]
 [00016ad4] Name Addr.	[00001390 v]
@@ -58,7 +58,7 @@ Have entries: 10 ( 0xa )
 Entry #2
 
 ------
-[ext-ms-win-security-capauthz-l1-1-0.dll] size: 0020 fieldsCount: 8
+[ext-ms-win-security-capauthz-l1-1-0.dll] size: 0x20 fieldsCount: 8
 
 [00016af0] Attributes	[00000001 _]
 [00016af4] Name Addr.	[00001400 v]
@@ -73,7 +73,7 @@ Have entries: 1 ( 0x1 )
 Entry #3
 
 ------
-[ext-ms-win-security-chambers-l1-1-0.dll] size: 0020 fieldsCount: 8
+[ext-ms-win-security-chambers-l1-1-0.dll] size: 0x20 fieldsCount: 8
 
 [00016b10] Attributes	[00000001 _]
 [00016b14] Name Addr.	[000014C0 v]
@@ -100,7 +100,7 @@ $ [0] DOS Hdr
 [19] DelayImports
 wrapperNum: 
 ------
-[DelayImports] size: 00a0 fieldsCount: 4
+[DelayImports] size: 0xa0 fieldsCount: 4
 
 [00016ab0] AUTHZ.dll	[00000001 _][00001380 _][00019484 _][0001C000 _][00017750 _][00017A40 _][00000000 _][00000000 _]
 [00016ad0] WINTRUST.dll	[00000001 _][00001390 _][00019488 _][0001C024 _][00017774 _][00017A54 _][00000000 _][00000000 _]
@@ -109,7 +109,7 @@ wrapperNum:
 ------
 Dump subentries of Index: : 
 ------
-[AUTHZ.dll] size: 0020 fieldsCount: 8
+[AUTHZ.dll] size: 0x20 fieldsCount: 8
 
 [00016ab0] Attributes	[00000001 _]
 [00016ab4] Name Addr.	[00001380 v]
@@ -125,7 +125,7 @@ Dump subentries of Index: :
 Entry #0
 
 ------
-[[AUTHZ.dll].AuthzFreeResourceManager] size: 0004 fieldsCount: 4
+[[AUTHZ.dll].AuthzFreeResourceManager] size: 0x4 fieldsCount: 4
 
 [00016b50] Name Addr.	[000177B4 v]
 [00019400] IAT Addr.	[1001702B V]
@@ -135,7 +135,7 @@ Entry #0
 Entry #1
 
 ------
-[[AUTHZ.dll].AuthziAccessCheckEx] size: 0004 fieldsCount: 4
+[[AUTHZ.dll].AuthziAccessCheckEx] size: 0x4 fieldsCount: 4
 
 [00016b54] Name Addr.	[0001798C v]
 [00019404] IAT Addr.	[100170E3 V]
@@ -145,7 +145,7 @@ Entry #1
 Entry #2
 
 ------
-[[AUTHZ.dll].AuthzFreeContext] size: 0004 fieldsCount: 4
+[[AUTHZ.dll].AuthzFreeContext] size: 0x4 fieldsCount: 4
 
 [00016b58] Name Addr.	[000177D0 v]
 [00019408] IAT Addr.	[10017046 V]
@@ -155,7 +155,7 @@ Entry #2
 Entry #3
 
 ------
-[[AUTHZ.dll].AuthzInitializeResourceManager] size: 0004 fieldsCount: 4
+[[AUTHZ.dll].AuthzInitializeResourceManager] size: 0x4 fieldsCount: 4
 
 [00016b5c] Name Addr.	[000177E4 v]
 [0001940c] IAT Addr.	[10017050 V]
@@ -165,7 +165,7 @@ Entry #3
 Entry #4
 
 ------
-[[AUTHZ.dll].AuthzInitializeContextFromToken] size: 0004 fieldsCount: 4
+[[AUTHZ.dll].AuthzInitializeContextFromToken] size: 0x4 fieldsCount: 4
 
 [00016b60] Name Addr.	[00017806 v]
 [00019410] IAT Addr.	[1001705A V]
@@ -175,7 +175,7 @@ Entry #4
 Entry #5
 
 ------
-[[AUTHZ.dll].AuthziModifySecurityAttributes] size: 0004 fieldsCount: 4
+[[AUTHZ.dll].AuthziModifySecurityAttributes] size: 0x4 fieldsCount: 4
 
 [00016b64] Name Addr.	[000179A2 v]
 [00019414] IAT Addr.	[100170ED V]
@@ -185,7 +185,7 @@ Entry #5
 Entry #6
 
 ------
-[[AUTHZ.dll].AuthziQuerySecurityAttributes] size: 0004 fieldsCount: 4
+[[AUTHZ.dll].AuthziQuerySecurityAttributes] size: 0x4 fieldsCount: 4
 
 [00016b68] Name Addr.	[000179C4 v]
 [00019418] IAT Addr.	[100170F7 V]
@@ -195,7 +195,7 @@ Entry #6
 Entry #7
 
 ------
-[[AUTHZ.dll].AuthzGetInformationFromContext] size: 0004 fieldsCount: 4
+[[AUTHZ.dll].AuthzGetInformationFromContext] size: 0x4 fieldsCount: 4
 
 [00016b6c] Name Addr.	[0001783A v]
 [0001941c] IAT Addr.	[1001707F V]
@@ -217,7 +217,7 @@ $ [0] DOS Hdr
 [19] DelayImports
 wrapperNum: 
 ------
-[DelayImports] size: 00a0 fieldsCount: 4
+[DelayImports] size: 0xa0 fieldsCount: 4
 
 [00016ab0] AUTHZ.dll	[00000001 _][00001380 _][00019484 _][0001C000 _][00017750 _][00017A40 _][00000000 _][00000000 _]
 [00016ad0] WINTRUST.dll	[00000001 _][00001390 _][00019488 _][0001C024 _][00017774 _][00017A54 _][00000000 _][00000000 _]
@@ -226,7 +226,7 @@ wrapperNum:
 ------
 Dump subentries of Index: : 
 ------
-[WINTRUST.dll] size: 0020 fieldsCount: 8
+[WINTRUST.dll] size: 0x20 fieldsCount: 8
 
 [00016ad0] Attributes	[00000001 _]
 [00016ad4] Name Addr.	[00001390 v]
@@ -242,7 +242,7 @@ Dump subentries of Index: :
 Entry #0
 
 ------
-[[WINTRUST.dll].WinVerifyTrust] size: 0004 fieldsCount: 4
+[[WINTRUST.dll].WinVerifyTrust] size: 0x4 fieldsCount: 4
 
 [00016b74] Name Addr.	[00017828 v]
 [00019424] IAT Addr.	[10017064 V]
@@ -252,7 +252,7 @@ Entry #0
 Entry #1
 
 ------
-[[WINTRUST.dll].WTHelperGetProvCertFromChain] size: 0004 fieldsCount: 4
+[[WINTRUST.dll].WTHelperGetProvCertFromChain] size: 0x4 fieldsCount: 4
 
 [00016b78] Name Addr.	[0001789E v]
 [00019428] IAT Addr.	[1001709D V]
@@ -262,7 +262,7 @@ Entry #1
 Entry #2
 
 ------
-[[WINTRUST.dll].CryptCATAdminCalcHashFromFileHandle] size: 0004 fieldsCount: 4
+[[WINTRUST.dll].CryptCATAdminCalcHashFromFileHandle] size: 0x4 fieldsCount: 4
 
 [00016b7c] Name Addr.	[000178BE v]
 [0001942c] IAT Addr.	[100170A7 V]
@@ -272,7 +272,7 @@ Entry #2
 Entry #3
 
 ------
-[[WINTRUST.dll].CryptCATAdminAcquireContext] size: 0004 fieldsCount: 4
+[[WINTRUST.dll].CryptCATAdminAcquireContext] size: 0x4 fieldsCount: 4
 
 [00016b80] Name Addr.	[000178E4 v]
 [00019430] IAT Addr.	[100170B1 V]
@@ -282,7 +282,7 @@ Entry #3
 Entry #4
 
 ------
-[[WINTRUST.dll].CryptCATAdminEnumCatalogFromHash] size: 0004 fieldsCount: 4
+[[WINTRUST.dll].CryptCATAdminEnumCatalogFromHash] size: 0x4 fieldsCount: 4
 
 [00016b84] Name Addr.	[00017902 v]
 [00019434] IAT Addr.	[100170BB V]
@@ -292,7 +292,7 @@ Entry #4
 Entry #5
 
 ------
-[[WINTRUST.dll].CryptCATCatalogInfoFromContext] size: 0004 fieldsCount: 4
+[[WINTRUST.dll].CryptCATCatalogInfoFromContext] size: 0x4 fieldsCount: 4
 
 [00016b88] Name Addr.	[00017926 v]
 [00019438] IAT Addr.	[100170C5 V]
@@ -302,7 +302,7 @@ Entry #5
 Entry #6
 
 ------
-[[WINTRUST.dll].CryptCATAdminReleaseCatalogContext] size: 0004 fieldsCount: 4
+[[WINTRUST.dll].CryptCATAdminReleaseCatalogContext] size: 0x4 fieldsCount: 4
 
 [00016b8c] Name Addr.	[00017948 v]
 [0001943c] IAT Addr.	[100170CF V]
@@ -312,7 +312,7 @@ Entry #6
 Entry #7
 
 ------
-[[WINTRUST.dll].CryptCATAdminReleaseContext] size: 0004 fieldsCount: 4
+[[WINTRUST.dll].CryptCATAdminReleaseContext] size: 0x4 fieldsCount: 4
 
 [00016b90] Name Addr.	[0001796E v]
 [00019440] IAT Addr.	[100170D9 V]
@@ -322,7 +322,7 @@ Entry #7
 Entry #8
 
 ------
-[[WINTRUST.dll].WTHelperProvDataFromStateData] size: 0004 fieldsCount: 4
+[[WINTRUST.dll].WTHelperProvDataFromStateData] size: 0x4 fieldsCount: 4
 
 [00016b94] Name Addr.	[0001785C v]
 [00019444] IAT Addr.	[10017089 V]
@@ -332,7 +332,7 @@ Entry #8
 Entry #9
 
 ------
-[[WINTRUST.dll].WTHelperGetProvSignerFromChain] size: 0004 fieldsCount: 4
+[[WINTRUST.dll].WTHelperGetProvSignerFromChain] size: 0x4 fieldsCount: 4
 
 [00016b98] Name Addr.	[0001787C v]
 [00019448] IAT Addr.	[10017093 V]
@@ -354,7 +354,7 @@ $ [0] DOS Hdr
 [19] DelayImports
 wrapperNum: 
 ------
-[DelayImports] size: 00a0 fieldsCount: 4
+[DelayImports] size: 0xa0 fieldsCount: 4
 
 [00016ab0] AUTHZ.dll	[00000001 _][00001380 _][00019484 _][0001C000 _][00017750 _][00017A40 _][00000000 _][00000000 _]
 [00016ad0] WINTRUST.dll	[00000001 _][00001390 _][00019488 _][0001C024 _][00017774 _][00017A54 _][00000000 _][00000000 _]
@@ -363,7 +363,7 @@ wrapperNum:
 ------
 Dump subentries of Index: : 
 ------
-[ext-ms-win-security-capauthz-l1-1-0.dll] size: 0020 fieldsCount: 8
+[ext-ms-win-security-capauthz-l1-1-0.dll] size: 0x20 fieldsCount: 8
 
 [00016af0] Attributes	[00000001 _]
 [00016af4] Name Addr.	[00001400 v]
@@ -379,7 +379,7 @@ Dump subentries of Index: :
 Entry #0
 
 ------
-[[ext-ms-win-security-capauthz-l1-1-0.dll].QueryApplicationCapabilities] size: 0004 fieldsCount: 4
+[[ext-ms-win-security-capauthz-l1-1-0.dll].QueryApplicationCapabilities] size: 0x4 fieldsCount: 4
 
 [00016ba0] Name Addr.	[000179E4 v]
 [00019450] IAT Addr.	[10017148 V]
@@ -401,7 +401,7 @@ $ [0] DOS Hdr
 [19] DelayImports
 wrapperNum: 
 ------
-[DelayImports] size: 00a0 fieldsCount: 4
+[DelayImports] size: 0xa0 fieldsCount: 4
 
 [00016ab0] AUTHZ.dll	[00000001 _][00001380 _][00019484 _][0001C000 _][00017750 _][00017A40 _][00000000 _][00000000 _]
 [00016ad0] WINTRUST.dll	[00000001 _][00001390 _][00019488 _][0001C024 _][00017774 _][00017A54 _][00000000 _][00000000 _]
@@ -410,7 +410,7 @@ wrapperNum:
 ------
 Dump subentries of Index: : 
 ------
-[ext-ms-win-security-chambers-l1-1-0.dll] size: 0020 fieldsCount: 8
+[ext-ms-win-security-chambers-l1-1-0.dll] size: 0x20 fieldsCount: 8
 
 [00016b10] Attributes	[00000001 _]
 [00016b14] Name Addr.	[000014C0 v]
@@ -426,7 +426,7 @@ Dump subentries of Index: :
 Entry #0
 
 ------
-[[ext-ms-win-security-chambers-l1-1-0.dll].ReleaseExecutableProperties] size: 0004 fieldsCount: 4
+[[ext-ms-win-security-chambers-l1-1-0.dll].ReleaseExecutableProperties] size: 0x4 fieldsCount: 4
 
 [00016ba8] Name Addr.	[00017A20 v]
 [00019458] IAT Addr.	[100171CB V]
@@ -436,7 +436,7 @@ Entry #0
 Entry #1
 
 ------
-[[ext-ms-win-security-chambers-l1-1-0.dll].QueryExecutableProperties] size: 0004 fieldsCount: 4
+[[ext-ms-win-security-chambers-l1-1-0.dll].QueryExecutableProperties] size: 0x4 fieldsCount: 4
 
 [00016bac] Name Addr.	[00017A04 v]
 [0001945c] IAT Addr.	[100171B0 V]

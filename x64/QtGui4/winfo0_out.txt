@@ -14,7 +14,7 @@ $ [0] DOS Hdr
 [11] Relocation Dir.
 wrapperNum: 
 ------
-[DOS Hdr] size: 0040 fieldsCount: 19
+[DOS Hdr] size: 0x40 fieldsCount: 19
 
 [00000000] Magic number	[5A4D _]
 [00000002] Bytes on last page of file	[0090 _]

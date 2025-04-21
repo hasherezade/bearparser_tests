@@ -14,7 +14,7 @@ $ [0] DOS Hdr
 [11] Relocation Dir.
 wrapperNum: 
 ------
-[Rich Hdr] size: 0070 fieldsCount: 17
+[Rich Hdr] size: 0x70 fieldsCount: 17
 
 [00000080] DanS ID	[B82C9D85 _] DanS 
 [00000084] Checksumed padding	[EB42FCC1 _] 0 
